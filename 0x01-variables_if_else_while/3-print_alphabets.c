@@ -9,9 +9,9 @@ int main(void)
 {
 	char w = 'a', u = 'A';
 
-	for (; x <= 'z'; x++)
+	for (; w <= 'z'; x++)
 		putchar(w);
-	for (; y <= 'Z'; y++)
+	for (; u <= 'Z'; y++)
 		putchar(u);
 	putchar('\n');
 	return (0);
