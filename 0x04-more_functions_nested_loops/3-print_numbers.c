@@ -1,12 +1,15 @@
 #include "main.h"
-
 /**
- * main - check the code for Holberton School students.
+ * print_numbers - prints the numbers
  *
- * Return: Always 0.
  */
-int main(void)
+void print_numbers(void)
 {
-    print_numbers();
-    return (0);
+	int i;
+
+	for (i = '0'; i <= '9'; i++)
+	{
+		_putchar(i);
+	}
+	_putchar('\n');
 }
