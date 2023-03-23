@@ -1,8 +1,4 @@
 #include "variadic_functions.h"
-<<<<<<< Updated upstream
-#include <stdio.h>
-=======
->>>>>>> Stashed changes
 #include <stdarg.h>
 
 /**
