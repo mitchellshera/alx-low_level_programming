@@ -11,7 +11,7 @@
  * @len: length of the string
  * @next: points to the next node
  *
- * Description: this is a node structure for the singly list 
+ * Description: this is a node structure for the singly list
  */
 
 typedef struct list_s
