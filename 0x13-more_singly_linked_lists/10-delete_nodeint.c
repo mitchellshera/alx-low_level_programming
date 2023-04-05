@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * delete_nodeint_at_index - Delete a node at a given positiion.
+ * delete_nodeint_at_index - Delete a node at a given position.
  * @head: First node address.
  * @index: Position of the node to delete.
  * Return: If success (1).

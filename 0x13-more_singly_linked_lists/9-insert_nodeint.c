@@ -3,8 +3,8 @@
 
 /**
  * insert_nodeint_at_index - Insert a new node at a given positiion.
- * @head: First node address.
- * @idx: Position of the new node to be inserted in.
+ * @head: First node's address.
+ * @idx: Position that the new node to be inserted in.
  * @n: Data of the new node.
  * Return: Address of the new node.
  **/

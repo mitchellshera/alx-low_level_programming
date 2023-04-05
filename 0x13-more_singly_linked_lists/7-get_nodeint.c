@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * get_nodeint_at_index - Find a node in a list.
+ * get_nodeint_at_index - Find node in a list.
  * @head: Address of the first node in a list.
- * @index: Position of a the node to find (starting from 0).
+ * @index: Position of a the node to find (starting 0).
  * Return: Node address.
  **/
 
