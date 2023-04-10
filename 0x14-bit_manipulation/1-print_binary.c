@@ -7,13 +7,13 @@
 void print_binary(unsigned long int n)
 {
 	int i, count = 0;
-	unsigned long int current;
+	unsigned long int curr;
 
 	for (i = 63; i >= 0; i--)
 	{
-		current = n >> i;
+		curr = n >> i;
 
-		if (current & 1)
+		if (curr & 1)
 		{
 			_putchar('1');
 			count++;
@@ -21,6 +21,4 @@ void print_binary(unsigned long int n)
 		else if (count)
 			_putchar('0');
 	}
-	if (!count)
-		_putchar('0');
-}
+	
