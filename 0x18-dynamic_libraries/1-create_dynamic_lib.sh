@@ -14,4 +14,3 @@ if [ $exit_code -eq 0 ]; then
 else
   echo "Failed to create the dynamic library."
 fi
-1
